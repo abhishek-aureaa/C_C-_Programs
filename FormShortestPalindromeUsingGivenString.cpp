@@ -5,6 +5,7 @@
 #include <string.h>
 #define _CRT_SECURE_NO_WARNINGS 1
 
+/*cccc*/
 bool palindrome(std::string st)
 {
 	const char* str = st.c_str();
