@@ -4,6 +4,14 @@
 #include <conio.h>
 
 /*MNOPQ*/
+/*
+using namespace std;
+
+struct Node {
+	int val;
+	struct Node* left;
+	struct Node* right;
+};*/
 using namespace std;
 
 struct Node {
