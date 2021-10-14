@@ -3,7 +3,15 @@
 #include <stdlib.h>
 #include <conio.h>
 
-/*Hello*/
+/*MNOPQ*/
+/*
+using namespace std;
+
+struct Node {
+	int val;
+	struct Node* left;
+	struct Node* right;
+};*/
 using namespace std;
 
 struct Node {
