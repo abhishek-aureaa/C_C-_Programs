@@ -52,14 +52,15 @@ void BSTInsert(struct Node** root, int i)
 /*HURRRRAYYYY*/
 /*HURRRRAYYYY*//*HURRRRAYYYY*/
 
-
+adadsssssssssssssssssssssssss
 struct Node1* head = NULL;
 void push(struct Node1** head, int value)
+adadsssssssssssssssssssssssss
 {
 	struct Node1* temp = (struct Node1*) malloc(sizeof(struct Node1));
-	temp->value = value;
+	temp->value = value;adadsssssssssssssssssssssssss
 
-	if (head == NULL)
+	if (head == NULL)adadsssssssssssssssssssssssss
 	{
 		*head = temp;
 	}
