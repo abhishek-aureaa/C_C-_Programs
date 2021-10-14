@@ -12,23 +12,25 @@ struct Node {
 	struct Node* left;
 	struct Node* right;
 };*/
+/*HURRRRAYYYY*/
 using namespace std;
-
+/*HURRRRAYYYY*/
 struct Node {
 	int val;
 	struct Node* left;
 	struct Node* right;
 };
-
+/*HURRRRAYYYY*/
 struct Node1 {
 	struct Node1* next;
 	int value;
 };
-
+/*HURRRRAYYYY*/
 void BSTInsert(struct Node** root, int i)
 {
 	if (*root == NULL)
 	{
+		/*HURRRRAYYYY*/
 		(*root) = (struct Node*) malloc(sizeof(struct Node));
 		(*root)->val = i;
 		(*root)->left = NULL;
@@ -43,7 +45,12 @@ void BSTInsert(struct Node** root, int i)
 		{
 			BSTInsert(&((*root)->right), i);
 		}
+		/*HURRRRAYYYY*/
+		
 }
+/*HURRRRAYYYY*/
+/*HURRRRAYYYY*/
+/*HURRRRAYYYY*//*HURRRRAYYYY*/
 
 
 struct Node1* head = NULL;
